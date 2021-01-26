@@ -1,0 +1,23 @@
+#Coloque todas as informações
+
+VARIAVEIS:VALOR:INFO SOBRE O CAMPO
+
+TENANT:teste: nome completo do Tenant do cliente
+
+P_NAME_PRD:10.10.10.0: rede de private de producao, sem a mascara, padrão /24
+
+B_NAME_PRD:10.10.20.0: rede backup de produção, sem a mascara, padrão /24
+
+P_NAME_HML:10.10.30.0: rede private de homologação, sem a mascara, padrão /24
+
+B_NAME_HML:10.10.40.0: rede backup de homologação, sem a mascara, padrão /24
+
+INTERNET:10.10.50.0: rede de internet, sem a mascara, padrão /24
+
+REDE_I_PROD:169.254.117.96: Coloque a rede de interconexão de produção sem a mascara, padrão /29
+
+REDE_I_BKP:169.254.117.104: Coloque a rede de interconexão de backup sem a mascara, padrão /29
+
+VLAN_PROD:645: Coloque a vlan que será usada para a rede de interligação de produção
+
+VLAN_HML:646: Coloque a vlan que será usada para a rede de interligação de backup
